@@ -1,0 +1,55 @@
+﻿
+@{
+}
+@model Student
+<form method="POST">
+  <div class="form-group">
+    <label for="inputID">Mã sinh viên</label>
+    <input type="text" class="form-control" id="inputID" asp-for="Id"  placeholder="Nhập mã sinh viên">
+  </div>
+
+  <div class="form-group">
+    <label for="inputName">Tên sinh viên</label>
+    <input type="text" class="form-control" id="inputName" asp-for="Name" placeholder="Nhập tên sinh viên">
+  </div>
+
+  <div class="form-group">
+    <label for="inputEmail">Email</label>
+    <input type="email" class="form-control" id="inputID" asp-for="Email" placeholder="Nhập email">
+  </div>
+
+  <div class="form-group">
+    <label for="inputPassword">Mật khẩu</label>
+    <input type="password" class="form-control" id="inputPassword" asp-for="Password" placeholder="Nhập mật khẩu">
+  </div>
+
+  <div class="form-group">
+    <label for="inputAddress">Địa chỉ</label>
+    <input type="text" class="form-control" id="inputAddress" asp-for="Address" placeholder="Nhập địa chỉ">
+  </div>
+
+  <div class="form-group">
+    <label for="inputBirth">Ngày sinh</label>
+    <input type="date" class="form-control" id="inputBirth" asp-for="DateOfBirth">
+  </div>
+
+  <div class="form-group">
+    <label for="inputBranch">Ngành học</label>
+    <select class="form-control" id="inputBranch" asp-for="Branch">
+        <option value="IT">IT</option>
+        <option value="BE">BE</option>
+        <option value="CE">CE</option>
+        <option value="EE">EE</option>
+       
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="inputGender">Giới tính</label>
+    <select class="form-control" id="inputGender" asp-for="@Model.Gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+    </select>
+  </div>
+  
+  <button type="submit" class="btn btn-primary mt-3">ADD</button>
+</form>
