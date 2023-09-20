@@ -1,4 +1,23 @@
-﻿@model IEnumerable<Student>
+﻿@{
+    Layout = "~/Views/Shared/MyLayoutHelper.cshtml";
+}
+@section ChangeColorTable{
+    <script>
+        const table = document.querySelector("table");
+        var isClick = false;
+        table.addEventListener("click",() => {
+            isClick = !isClick;
+            if(isClick) {
+            table.style.background = "blue";
+            }
+            else{
+                table.style.background = "white";
+            }
+        })
+        
+    </script>
+}
+@model IEnumerable<Student>
 <a asp-controller="Student" asp-action="Create" class="btn btn-primary">Create Student</a>
 
 <table class="table">

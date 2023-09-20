@@ -9,8 +9,16 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "D:\\Visual Studio\\Lab1\\Lab1\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
       "Id": "D:\\Visual Studio\\Lab1\\Lab1\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Visual Studio\\Lab1\\Lab1\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
     },
     {
       "Id": "D:\\Visual Studio\\Lab1\\Lab1\\wwwroot\\js\\site.js",

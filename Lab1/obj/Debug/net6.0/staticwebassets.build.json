@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jk5b7sGgnjHZ9oKhITWWVi7a8dJLXJ9M9SeFotxopnc=",
+  "Hash": "BM3ke0dWm6hKef/0rL1ikKc0oouoxVS6vkAITta9W74=",
   "Source": "Lab1",
   "BasePath": "_content/Lab1",
   "Mode": "Default",
@@ -68,6 +68,23 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "D:\\Visual Studio\\Lab1\\Lab1\\wwwroot\\css\\styles.css",
+      "SourceId": "Lab1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Visual Studio\\Lab1\\Lab1\\wwwroot\\",
+      "BasePath": "_content/Lab1",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
+    {
       "Identity": "D:\\Visual Studio\\Lab1\\Lab1\\wwwroot\\favicon.ico",
       "SourceId": "Lab1",
       "SourceType": "Discovered",
@@ -83,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Visual Studio\\Lab1\\Lab1\\wwwroot\\js\\scripts.js",
+      "SourceId": "Lab1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Visual Studio\\Lab1\\Lab1\\wwwroot\\",
+      "BasePath": "_content/Lab1",
+      "RelativePath": "js/scripts.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\scripts.js"
     },
     {
       "Identity": "D:\\Visual Studio\\Lab1\\Lab1\\wwwroot\\js\\site.js",
