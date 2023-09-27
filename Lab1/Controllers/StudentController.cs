@@ -42,8 +42,12 @@ namespace Lab1.Controllers
         [HttpPost("/Admin/Student/Add")]
         public IActionResult Create(Student student)
         {
-            students.Add(student);
-            return View("Index",students);
+            if(ModelState.IsValid)
+            {
+                students.Add(student);  
+                return View("Index",students);
+            }
+            return View(student);
         }
     }
 }
